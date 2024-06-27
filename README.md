@@ -12,7 +12,7 @@ value  -> STRING | NUMBER | BOOL | NULL
 
 usage:
 ```sh
-go run json-parser file|input <file location | JSON input> <comma-separated list of keys>
+go run json-parser <file location | JSON input> <comma-separated list of keys>
 ```
 
 This repo is not meant for serious use, but is just a thing I did for fun. I covered unicode values, escaping, nested objects, etc, but I haven't used the formal JSON specification. Yet, this parser handles every single input I've tried.
